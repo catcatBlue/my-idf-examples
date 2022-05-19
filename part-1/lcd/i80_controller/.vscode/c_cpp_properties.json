@@ -1,0 +1,50 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "ESP-IDF",
+//             "compilerPath": "C:\\espressif\\v4.4.1\\esp-idf-tools\\tools\\xtensa-esp32s3-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32s3-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+//             "cStandard": "c11",
+//             "cppStandard": "c++17",
+//             "includePath": [
+//                 "${config:idf.espIdfPath}/components/**",
+//                 "${config:idf.espIdfPathWin}/components/**",
+//                 "${config:idf.espAdfPath}/components/**",
+//                 "${config:idf.espAdfPathWin}/components/**",
+//                 "${workspaceFolder}/**"
+//             ],
+//             "browse": {
+//                 "path": [
+//                     "${config:idf.espIdfPath}/components",
+//                     "${config:idf.espIdfPathWin}/components",
+//                     "${config:idf.espAdfPath}/components/**",
+//                     "${config:idf.espAdfPathWin}/components/**",
+//                     "${workspaceFolder}"
+//                 ],
+//                 "limitSymbolsToIncludedHeaders": false
+//             }
+//         }
+//     ],
+//     "version": 4
+// }
+
+
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

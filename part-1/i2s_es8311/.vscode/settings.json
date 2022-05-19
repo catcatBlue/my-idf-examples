@@ -1,0 +1,9 @@
+{
+	"idf.adapterTargetName": "esp32s3",
+	"idf.openOcdConfigs": [
+		"board/esp32s3-builtin.cfg"
+	],
+	"idf.portWin": "COM10",
+	"C_Cpp.dimInactiveRegions": false,
+	"idf.flashType": "UART"
+}

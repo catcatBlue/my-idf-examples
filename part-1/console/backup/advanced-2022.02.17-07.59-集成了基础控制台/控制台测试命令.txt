@@ -1,0 +1,7 @@
+test -h -i 666 --int 999 -i 233 --str goodbye -s "I have a dream" -s "Hello!" --dbl 2.333333
+
+test -i,666 --int,999 -i,233
+test --str goodbye -s "I have a dream" -s "Hello!"
+test --dbl 2.333333
+test -i 666 -i 999 -i 233 -s goodbye -s "I have a dream" -s "Hello!"
+test -i 666 -s "I have a dream" -s "Hello!" -i 999

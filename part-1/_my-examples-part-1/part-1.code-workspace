@@ -1,0 +1,107 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "i2c_tools",
+			"path": "..\\i2c_tools"
+		},
+		{
+			"name": "advanced",
+			"path": "..\\console\\advanced"
+		},
+		{
+			"name": "fast_scan",
+			"path": "..\\fast_scan"
+		},
+		{
+			"name": "uart_events",
+			"path": "..\\uart_events"
+		},
+		{
+			"name": "iperf",
+			"path": "..\\iperf"
+		},
+		{
+			"name": "basic",
+			"path": "..\\console\\basic"
+		},
+		{
+			"name": "icmp_echo",
+			"path": "..\\icmp_echo"
+		},
+		{
+			"name": "protocol_examples_common",
+			"path": "..\\protocol_examples_common"
+		},
+		{
+			"name": "sdmmc",
+			"path": "..\\sd_card\\sdmmc"
+		},
+		{
+			"name": "sdspi",
+			"path": "..\\sd_card\\sdspi"
+		},
+		{
+			"name": "led_strip",
+			"path": "..\\rmt\\led_strip"
+		},
+		{
+			"path": "..\\ext_flash_fatfs"
+		},
+		{
+			"path": "..\\lcd"
+		},
+		{
+			"path": "..\\tusb_console"
+		},
+		{
+			"path": "..\\tusb_serial_device"
+		},
+		{
+			"path": "..\\tusb_sample_descriptor"
+		},
+		{
+			"path": "..\\nmea0183_parser"
+		},
+		{
+			"path": "..\\uart_echo"
+		},
+		{
+			"path": "..\\i2s_es8311"
+		},
+		{
+			"path": "..\\musical_buzzer"
+		},
+		{
+			"path": "..\\ir_protocols"
+		},
+		{
+			"path": "..\\lcd\\rgb_panel"
+		},
+		{
+			"path": "..\\screen"
+		},
+		{
+			"path": "..\\lcd\\i80_controller"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ino": "cpp",
+			"*.pde": "cpp",
+			"bitset": "c",
+			"set": "c",
+			"*.inc": "c",
+			"test_fatfs_common.h": "c",
+			"esp_vfs_fat.h": "c",
+			"lvgl.h": "c",
+			"lv_timer.h": "c",
+			"lv_log.h": "c",
+			"lv_conf_internal.h": "c",
+			"gpio.h": "c",
+			"esp_lcd_panel_ops.h": "c"
+		}
+	}
+}

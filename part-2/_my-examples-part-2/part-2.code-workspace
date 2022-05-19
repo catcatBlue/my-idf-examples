@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\pipeline_wav_amr_sdcard"
+		},
+		{
+			"path": "..\\pipeline_raw_http"
+		},
+		{
+			"path": "..\\speech_recognition\\wwe"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ino": "cpp",
+			"*.pde": "cpp",
+			"bitset": "c",
+			"set": "c",
+			"*.inc": "c",
+			"array": "c",
+			"string": "c",
+			"string_view": "c",
+			"random": "c"
+		}
+	}
+}

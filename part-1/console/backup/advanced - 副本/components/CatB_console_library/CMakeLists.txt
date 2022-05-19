@@ -1,0 +1,4 @@
+
+idf_component_register(SRCS "CatB_console_library.c"
+                       INCLUDE_DIRS "include"
+                       REQUIRES "cmd_nvs" "cmd_system" "console")

@@ -1,0 +1,18 @@
+menu "Example Configuration"
+
+    config STORE_HISTORY
+        bool "Store command history in flash"
+        default y
+        help
+            Linenoise line editing library provides functions to save and load
+            command history. If this option is enabled, initalizes a FAT filesystem
+            and uses it to store command history.
+
+    config USE_ADVANCED_CONSOLE
+        bool "Use Advanced Console"
+        default y
+        help
+            The advanced console exposes more details to the user and
+             is more complex than the basic console, which is simpler.
+
+endmenu
